@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurante Sabor Urbano</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="index.html"><span>🍽️</span> Sabor Urbano</a>
+  <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
+  <nav id="menu" class="menu">
+    <a class="activo" href="index.html">Inicio</a>
+    <a href="paginas/menu.html">Menú</a>
+    <a href="paginas/reservas.html">Reservas</a>
+    <a href="paginas/nosotros.html">Nosotros</a>
+    <a href="paginas/contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero contenedor">
+    <div>
+      <span class="tag">Cocina contemporánea</span>
+      <h1>Sabores simples, ingredientes que se disfrutan.</h1>
+      <p class="lead">
+        En Sabor Urbano combinamos platos clásicos con propuestas actuales,
+        en un espacio pensado para compartir buenos momentos.
+      </p>
+      <div class="acciones">
+        <a class="btn primario" href="paginas/menu.html">Ver menú</a>
+        <a class="btn secundario" href="paginas/reservas.html">Reservar mesa</a>
+      </div>
+    </div>
+
+    <div class="heroVisual" aria-hidden="true">
+      <article class="featureCard">
+        <span>🥗</span>
+        <b>Ingredientes frescos</b>
+        <small>Productos seleccionados y preparaciones del día.</small>
+      </article>
+      <article class="featureCard secundaria">
+        <span>🍝</span>
+        <b>Platos para compartir</b>
+        <small>Opciones para almuerzos y cenas.</small>
+      </article>
+    </div>
+  </section>
+
+  <section class="stats contenedor">
+    <article><strong>20+</strong><span>platos y propuestas</span></article>
+    <article><strong>6 días</strong><span>de atención semanal</span></article>
+    <article><strong id="contador">0</strong><span>visitas en este navegador</span></article>
+  </section>
+
+  <section class="contenedor seccion">
+    <div class="titulo">
+      <span class="tag">Conocé Sabor Urbano</span>
+      <h2>Todo para disfrutar una buena experiencia.</h2>
+      <p>Consultá nuestra carta, reservá una mesa, conocé nuestra historia y encontrá cómo visitarnos.</p>
+    </div>
+
+    <div class="grid">
+      <a class="card" href="paginas/menu.html">
+        <span class="icono">📖</span>
+        <h3>Menú</h3>
+        <p>Entradas, platos principales, postres y bebidas.</p>
+        <b>Ver carta →</b>
+      </a>
+      <a class="card" href="paginas/reservas.html">
+        <span class="icono">📅</span>
+        <h3>Reservas</h3>
+        <p>Organizá tu visita y asegurá tu mesa.</p>
+        <b>Reservar →</b>
+      </a>
+      <a class="card" href="paginas/nosotros.html">
+        <span class="icono">👨‍🍳</span>
+        <h3>Nosotros</h3>
+        <p>Conocé nuestra propuesta, historia y forma de trabajar.</p>
+        <b>Conocernos →</b>
+      </a>
+      <a class="card" href="paginas/contacto.html">
+        <span class="icono">📍</span>
+        <h3>Contacto</h3>
+        <p>Horarios, ubicación y medios para comunicarte.</p>
+        <b>Ver contacto →</b>
+      </a>
+    </div>
+  </section>
+
+  <section class="contenedor dosColumnas">
+    <div>
+      <span class="tag">Nuestra propuesta</span>
+      <h2>Una cocina cercana y sin complicaciones.</h2>
+      <p class="texto">
+        Buscamos que cada plato tenga identidad, buena presentación y sabores reconocibles,
+        priorizando productos frescos y una atención simple.
+      </p>
+      <ul class="check">
+        <li>Opciones vegetarianas.</li>
+        <li>Platos de temporada.</li>
+        <li>Postres artesanales y bebidas sin alcohol.</li>
+      </ul>
+    </div>
+
+    <div class="nota">
+      <h3>¿Venís en grupo?</h3>
+      <p>
+        Para encuentros o mesas numerosas, te recomendamos reservar con anticipación.
+      </p>
+      <a class="btn primario" href="paginas/reservas.html">Hacer una reserva</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer contenedor">
+  <div>
+    <b>Restaurante Sabor Urbano</b>
+    <p>Cocina, encuentro y buenos momentos.</p>
+  </div>
+  <p class="materia">Sitio desarrollado en Laboratorio Full Stack I</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
