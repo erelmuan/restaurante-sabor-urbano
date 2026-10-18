@@ -21,12 +21,83 @@
 
     <div class="contenedorReservas">
       <main class="heroReserva">
-      <p id="hero__pequeno__reserva">Reserva</p>
-      <h1>Asegura tu lugar</h1>
-      <p>Reserva en pocos pasos y asegurá tu lugar. Elegí el día, el horario y la cantidad de personas y nosotros nos encargamos del resto para que disfrutes de una gran experiencia gastronómica</p>
-    </main>
+        <p id="hero__pequeno__reserva">Reserva</p>
+        <h1>Asegura tu lugar</h1>
+        <p>
+          Reserva en pocos pasos y asegurá tu lugar. Elegí el día, el horario y
+          la cantidad de personas y nosotros nos encargamos del resto para que
+          disfrutes de una gran experiencia gastronómica
+        </p>
+      </main>
 
+      <section class="formularioEInfo">
+        <div class="tituloYDias">
+          <h2>Elegi tu horario</h2>
+          <p>Estos son los horarios disponibles para los proximos días<br>
+          Selecciona la fecha que prefieras y encontra el horario que mejor se adapte a vos
+          </p>
+          <div class="diasContainer">
+          <div class="dia">Lunes <br>20/10</div>
+          <div class="dia">Martes <br>21/10 </div>
+          <div class="dia">Miercoles<br>22/10</div>
+          <div class="dia">Jueves<br>23/10</div>
+          <div class="dia">Viernes<br>24/10</div>
+          <div class="dia">Sabado<br>25/10</div>
+          <div class="dia">Domingo<br>26/10</div>
+        </div>
+        </div>
+        <div class="horariosContainer">
+          <h3>Horarios disponibles</h3>
+          <table>
+            <tr>
+              <td>12:00</td>
+              <td>12:30</td>
+              <td>13:00</td>
+              <td>13:30</td>
+            </tr>
+            <tr>
+              <td>20:00</td>
+              <td>20:30</td>
+              <td>21:00</td>
+              <td>21:30</td>
+            </tr>
+            <tr>
+              <td>22:00</td>
+              <td>22:30</td>
+              <td>23:00</td>
+              <td>23:30</td>
+            </tr>
+          </table>
+        </div>
+        <div class="formularioContainer">
+          <form>
+            <h3>Formulario de reserva</h3>
+            <h2>Completa tus datos</h2>
+
+            <div>
+              <label for="nombreApellido">Nombre y apellido<br></label>
+              <input id="nombreApellido" type="text" placeholder="Ej: Juan Pérez">
+            </div>
+            <div>
+              <label for="fecha">Fecha de la reserva<br></label>
+              <input id="fecha" type="date">
+            </div>
+            <div>
+              <label for="horario">Horario<br></label>
+              <input id="horario" type="time">
+            </div>
+            <div>
+              <label for="reserva">Cantidad de reservas<br></label>
+              <input id="reserva" type="number">
+            </div>
+            <div>
+              <input type="submit" value="Enviar">
+            </div>
+            
+            
+          </form>
+        </div>
+      </section>
     </div>
-    
   </body>
 </html>
