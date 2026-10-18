@@ -21,3 +21,37 @@ h1,h2,h3{line-height:1.1;margin-top:0}h1{font-size:clamp(2.6rem,6vw,5rem);letter
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:850px){.hero,.dosColumnas{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.footer{flex-direction:column}.heroVisual{min-height:330px}.materia{text-align:left}}
 @media(max-width:700px){.menuBtn{display:block}.menu{display:none;position:absolute;left:0;right:0;top:82px;background:#fff;border:1px solid var(--borde);border-radius:18px;padding:12px;flex-direction:column;box-shadow:var(--sombra)}.menu.abierto{display:flex}.featureCard{width:210px;padding:22px}.hero{padding-top:20px}.grid{grid-template-columns:1fr}}
+
+/* Estilos de pagina reservas.html */
+
+.contenedorReservas{
+    width:min(1160px,calc(100% - 32px));
+    margin: 0 auto;
+
+}
+.heroReserva{
+    border-radius: 50px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    height: 60vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i0.wp.com/elplanetaurbano.com/wp-content/uploads/2026/09/La-Mar-Planeta-Urbano-2026-1.jpg?resize=1250%2C781&ssl=1) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    #hero__pequeno__reserva{
+        font-weight: bold;
+        color: bisque;
+        margin: 0 0 0 10%;
+    }
+    p{
+        width: 60%;
+    }
+}
+
+
+
