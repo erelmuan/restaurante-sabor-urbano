@@ -203,3 +203,10 @@ main p {
     color: #555555;
     font-size: 1.05rem;
 }
+
+.informacionContainer{
+    margin-top: 70px;
+    display: flex;
+    gap: 30px ;
+
+}
