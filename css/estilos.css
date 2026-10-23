@@ -45,11 +45,15 @@ h1,h2,h3{line-height:1.1;margin-top:0}h1{font-size:clamp(2.6rem,6vw,5rem);letter
 
     #hero__pequeno__reserva{
         font-weight: bold;
-        color: bisque;
+        color: rgb(241, 224, 202);
         margin: 0 0 0 10%;
     }
     p{
+        color: white;
         width: 60%;
+    }
+    h1{
+        color: bisque;
     }
 }
 
