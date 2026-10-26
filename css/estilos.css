@@ -343,7 +343,6 @@ margin: 0 0 20px;
     border: 1px solid #f0e4e0;
     border-radius: 24px;
     outline: none;
-
     transition: background-color 0.2s, outline-color 0.2s;
 }
 
