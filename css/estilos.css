@@ -214,7 +214,6 @@ main p {
     gap: 30px ;
 
 }
-<<<<<<< HEAD
 /* Estilos de pagina menu.html */
 /* Fuerza a que cada plato se comporte como un contenedor flexible */
 .stats ul li {
@@ -241,10 +240,10 @@ main p {
 .contenido-plato h4 {
     margin-top: 0;           /* Remueve márgenes sobrantes para alinear con la parte superior de la foto */
     margin-bottom: 6px;
-=======
+}
 
 
-/Estilos pagina contacto.html//
+/* Estilos pagina contacto.html */
 .tarjeta-logos {
     max-width: 900px;
     margin: 30px auto;
@@ -474,5 +473,4 @@ margin: 0 0 20px;
     height: 350px;
     border: 1px solid #f0e4e0;
     border-radius: 24px;
->>>>>>> ab6fa80b27e1b93ec0e034aaa69ea966087ab21a
 }
