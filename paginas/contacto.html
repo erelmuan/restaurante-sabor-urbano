@@ -7,18 +7,24 @@
   <link rel="stylesheet" href="../css/estilos.css">
  </head>
 
- <body>
-  <header class="topbar">
-  <a class="logo" href="index.html"><span>🍽️</span> Sabor Urbano</a>
+ <body class="pagina-contacto">
+  
+<header class="topbar">
+  <a class="logo" href="../index.html">
+    <span>🍽️</span> Sabor Urbano
+  </a>
+
   <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">☰</button>
-   <nav id="menu" class="menu">
-   <a href="index.html">Inicio</a>
-   <a href="menu.html">Menú</a>
-   <a href="reservas.html">Reservas</a>
-   <a href="nosotros.html">Nosotros</a>
-   <a class="activo" href="contacto.html">Contacto</a>
-   </nav>
-   </header>
+
+  <nav id="menu" class="menu">
+    <a href="../index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="reservas.html">Reservas</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a class="activo" href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
 
   <main>
     <section class="tarjeta-logos">
@@ -28,29 +34,30 @@
 
   <div class="contenedor-logos">
     <a href="https://www.facebook.com/saborurbanobb/" target="_blank" aria-label="Facebook">
-      <img src="./Imagenes/Facebook.svg" alt="Facebook">
+      <img src="../img/Facebook.svg" alt="Facebook">
     </a>
     
     <a href="https://www.instagram.com/saborurbanobb/" target="_blank" aria-label="Instagram">
-      <img src="./Imagenes/Instagram.svg" alt="Instagram">
+      <img src="../img/Instagram.svg" alt="Instagram">
     </a> 
     
     <a href="https://wa.me/02915345820/" target="_blank" aria-label="Whatsapp">
-      <img src="./Imagenes/Whatsapp.svg" alt="Whatsapp">
+      <img src="../img/Whatsapp.svg" alt="Whatsapp">
     </a>
 
   </div>
     </section>
 
-
-    <section class="Horarios">
+    <section class="tarjeta-horarios">
   <h2>Horarios de atención</h2>
- <hr> 
- <p><strong>Martes a Viernes:</strong> 9:00 - 14:00 | 20:00 - 00:00</p>
-  <p><strong>Sabado y Domingo:</strong> 19:30 - 02:00 </p>
-    </section>
+ <hr>
+ <ul>
+ <li><strong>Martes a Viernes:</strong> 9:00 - 14:00 | 20:00 - 00:00</li>
+  <li><strong>Sabado y Domingo:</strong> 19:30 - 02:00</li> 
+ </ul>
+</section>
 
-<section class="Ubicación">
+<section class="tarjeta-Ubicacion">
  <h2>Donde encontrarnos</h2>
  <hr>
  <p>Nos ubicamos en <strong>Alsina 608, Bahía Blanca</strong>. ¡Te esperamos!</p>
@@ -63,21 +70,22 @@ title="Como llegar">
  </div>
 </section>
 
-<section class="Contacto">
-  <h2>Casilla de contacto:</h2>
+<section class="tarjeta-sugerencias">
+  <h2>Formulario por correo</h2>
   <hr>
   <p>Si no pudiste contactarte con nosotros mediante nuestras redes sociales o querés especificar algun motivo personal a detalle, también podes contactarnos por correo:</p>
-<form action="#" method="post">
-  
-  <label for="nombre">Tu nombre:</label>
+
+  <form action="#" method="post">
+  <label for="nombre">Tu nombre</label>
   <input 
   type="text" 
   id="nombre" 
   name="nombre"
+  placeholder="Escribí tu nombre acá"
   required
   >
 
-  <label for="correo">Tu correo electronico:</label>
+  <label for="correo">Tu correo electronico</label>
   <input
    type="email"
    id="correo"
@@ -86,19 +94,21 @@ title="Como llegar">
    required
    >
 
-   <label for="asunto">Motivo de la consulta:</label>
+   <label for="asunto">Motivo de la consulta</label>
    <input 
-    type="asunto"
+    type="text"
+    id="asunto"
     name="asunto"
     placeholder="Ej: Cumpleaños"
     required
     >
 
-    <label for="mensaje">Tu consulta:</label>
+    <label for="mensaje">Tu consulta</label>
     <textarea
     id="mensaje"
     name="mensaje"
     rows="5"
+    placeholder="¿En qué podemos ayudarte?"
     required
     ></textarea>
 
@@ -117,7 +127,7 @@ title="Como llegar">
 
   <div>
   <p class="materia">Sitio desarrollado en Laboratorio Full Stack I</p>
-  <p><strong>Alumna responsable:</strong> Campos</p>
+  <p><strong>Alumna responsable:</strong> Jemima Campos</p>
 </div>
 </footer>
 

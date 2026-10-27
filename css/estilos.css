@@ -45,11 +45,15 @@ h1,h2,h3{line-height:1.1;margin-top:0}h1{font-size:clamp(2.6rem,6vw,5rem);letter
 
     #hero__pequeno__reserva{
         font-weight: bold;
-        color: bisque;
+        color: rgb(241, 224, 202);
         margin: 0 0 0 10%;
     }
     p{
+        color: white;
         width: 60%;
+    }
+    h1{
+        color: bisque;
     }
 }
 
@@ -210,6 +214,7 @@ main p {
     gap: 30px ;
 
 }
+<<<<<<< HEAD
 /* Estilos de pagina menu.html */
 /* Fuerza a que cada plato se comporte como un contenedor flexible */
 .stats ul li {
@@ -236,4 +241,238 @@ main p {
 .contenido-plato h4 {
     margin-top: 0;           /* Remueve márgenes sobrantes para alinear con la parte superior de la foto */
     margin-bottom: 6px;
+=======
+
+
+/Estilos pagina contacto.html//
+.tarjeta-logos {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fdfbf7;
+    border: 1px solid #f0e4e0;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.tarjeta-logos h2 {
+color: #3b2b26;
+margin-top: 0;
+}
+
+.tarjeta-logos p {
+    color: #594942;
+    line-height: 1.6;
+}
+
+.pagina-contacto .contenedor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pagina-contacto .contenedor-logos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    flex: 0 0 55px;
+}
+
+.pagina-contacto .contenedor-logos img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 55px;
+    max-height: 55px;
+    object-fit: contain;
+}
+
+
+.tarjeta-horarios {
+    text-align: center;
+    background-color: #fdfbf7;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid #f0e4e0;
+}
+
+.tarjeta-horarios ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tarjeta-ubicacion {
+    background-color: #fdfbf7;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid #f0e4e0;
+}
+
+.tarjeta-sugerencias {
+    background-color: #fdfbf7;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 600px;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 24px;
+    border: 1px solid #f0e4e0;
+}
+
+.tarjeta-sugerencias h2 {
+text-align: center;
+color: #3b2b26;
+font-size: 28px;
+line-height: 1.3;
+margin: 0 0 20px;
+}
+
+.tarjeta-sugerencias form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta-sugerencias label {
+    color: #3b2b26;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.tarjeta-sugerencias input,
+.tarjeta-sugerencias textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #3b2b26;
+    background-color: #faf7f5;
+    border: 1px solid #f0e4e0;
+    border-radius: 24px;
+    outline: none;
+    transition: background-color 0.2s, outline-color 0.2s;
+}
+
+.tarjeta-sugerencias textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.tarjeta-sugerencias input:focus,
+.tarjeta-sugerencias textarea:focus {
+    outline: 2px solid #b95e3b;
+    outline-offset: 2px;
+}
+
+.tarjeta-sugerencias button {
+    margin-top: 15px;
+    padding: 14px 20px;
+    background-color: #b95e3b;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #f0e4e0;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.tarjeta-sugerencias button:hover {
+    background-color: #98482d;
+    transform: translateY(-2px);
+}
+
+.pagina-contacto main > section {
+    width: calc(100% - 32px);
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border:1px solid #f0e4e0;
+    border-radius: 24px;
+}
+
+.pagina-contacto main > .tarjeta-logos {
+    max-width: 600px;
+    text-align: center;
+}
+
+.pagina-contacto .contenedor-mapa {
+    width: 100%;
+}
+
+.pagina-contacto .contenedor-mapa iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    border: 1px solid #f0e4e0;
+    border-radius: 24px;
+}
+
+.pagina-contacto main > section h1,
+.pagina-contacto main > section h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.pagina-contacto main > section p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.pagina-contacto main > section {
+    width: calc(100% - 32px);
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #f0e4e0;
+    border-radius: 24px;
+}
+
+.pagina-contacto main > .tarjeta-logos {
+    max-width: 900px;
+    text-align: center;
+}
+
+.pagina-contacto .contenedor-mapa {
+    width: 100%;
+}
+
+.pagina-contacto .contenedor-mapa iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    border: 1px solid #f0e4e0;
+    border-radius: 24px;
+>>>>>>> ab6fa80b27e1b93ec0e034aaa69ea966087ab21a
 }

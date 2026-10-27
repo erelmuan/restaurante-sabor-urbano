@@ -8,64 +8,94 @@
 </head>
 <body>
 
-    <!-- Encabezado con menú de navegación -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="menu.html">Menú</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="reservas.html">Reservas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+    <header class="topbar">
+        <a class="logo" href="../index.html"><span>🍽️</span> Sabor Urbano</a>
+        <button id="menuBtn" class="menuBtn" aria-label="Abrir menú">≡</button>
+        <nav id="menu" class="menu">
+            <a href="../index.html">Inicio</a>
+            <a href="menu.html">Menú</a>
+            <a href="reservas.html">Reservas</a>
+            <a class="activo" href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
     </header>
 
     <main>
-        <!-- CONSIGNA 1: Título principal y párrafos sobre la historia/concepto -->
-        <section>
-            <h1>Sobre Nosotros</h1>
-            <p>Restaurante Sabor Urbano nació en el año 2020 con la idea de brindar una propuesta gastronómica moderna y accesible. Nuestro objetivo es ofrecer platos elaborados con productos frescos y de calidad en un ambiente cómodo para toda la familia.</p>
-            <p>Contamos con un equipo de cocina apasionado que busca combinar recetas tradicionales con un toque urbano y actual.</p>
-        </section>
-
-        <!-- CONSIGNA 2: Al menos 3 aspectos destacados de la propuesta -->
-        <section>
-            <h2>Nuestra Propuesta</h2>
+        <section class="hero contenedor">
             <div>
-                <h3>1. Comida Fresca</h3>
-                <p>Seleccionamos diariamente nuestros ingredientes de proveedores locales.</p>
-            </div>
-            <div>
-                <h3>2. Atención Cálida</h3>
-                <p>Nos enfocamos en brindar un trato cercano y profesional a cada cliente.</p>
-            </div>
-            <div>
-                <h3>3. Espacio Confortable</h3>
-                <p>Contamos con un salón ambientado para disfrutar de almuerzos o cenas tranquilas.</p>
+                <span class="tag">Sobre Nosotros</span>
+                <h1>Tradición y sabor con identidad urbana.</h1>
+                <p class="lead">
+                    Restaurante Sabor Urbano nació en el año 2020 con la idea de brindar una propuesta gastronómica cercana. 
+                    Contamos con un equipo de cocina apasionado que busca combinar recetas tradicionales con un toque urbano.
+                </p>
             </div>
         </section>
 
-        <!-- CONSIGNA 3: Imagen relacionada (puedes cambiar la URL o la imagen luego) -->
-        <section>
-            <h2>Nuestra Cocina</h2>
-            <img src="../img/saborurbano.png" alt="Interior del restaurante Sabor Urbano">
+        <section class="contenedor seccion">
+            <div class="titulo">
+                <span class="tag">Filosofía</span>
+                <h2>Nuestra Propuesta</h2>
+                <p>Los pilares que sostienen nuestro trabajo diario en el salón y la cocina.</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <span class="icono" style="font-size: 1.8rem;">🍴</span>
+                    <h3>Cocina con Identidad</h3>
+                    <p>Elaboraciones cuidadas que rescatan los sabores auténticos de nuestra tierra.</p>
+                </div>
+                <div class="card">
+                    <span class="icono" style="font-size: 1.8rem;">💬</span>
+                    <h3>Atención Cálida</h3>
+                    <p>Nos enfocamos en brindar un trato cercano y profesional a cada cliente.</p>
+                </div>
+                <div class="card">
+                    <span class="icono" style="font-size: 1.8rem;">🌿</span>
+                    <h3>Compromiso</h3>
+                    <p>Cuidado de las materias primas, la higiene y el trabajo en equipo.</p>
+                </div>
+            </div>
         </section>
 
-        <!-- CONSIGNA 4: Valores, filosofía o características -->
-        <section>
-            <h2>Nuestros Valores</h2>
-            <ul>
-                <li><strong>Calidad:</strong> Compromiso con el sabor y la higiene en cada plato.</li>
-                <li><strong>Responsabilidad:</strong> Cuidado de las materias primas y del medio ambiente.</li>
-                <li><strong>Compañerismo:</strong> Un equipo unido para dar el mejor servicio.</li>
-            </ul>
+        <section class="contenedor dosColumnas">
+            <div>
+                <span class="tag">Nuestro equipo</span>
+                <h2>Trabajamos cada día con dedicación.</h2>
+                <p class="texto">
+                    Nos encantan los encuentros y creemos que cada plato cuenta una historia. Por eso cuidamos cada detalle desde la selección de ingredientes hasta que llega a tu mesa.
+                </p>
+                <ul class="check">
+                    <li>Ambiente familiar y distendido.</li>
+                    <li>Opciones renovadas cada temporada.</li>
+                    <li>Pasión por la buena gastronomía.</li>
+                </ul>
+            </div>
+
+            <div class="nota">
+                <h3>¿Venís a conocernos?</h3>
+                <p>
+                    Descubrí nuestra carta completa y encontrá el plato ideal para tu próxima visita.
+                </p>
+                <a class="btn primario" href="menu.html">Ver menú</a>
+            </div>
+        </section>
+
+        <section class="contenedor seccion">
+            <div class="titulo">
+                <h2>Nuestra Cocina</h2>
+            </div>
+            <div style="text-align: center;">
+                <img src="../img/saborurbano.png" alt="Interior del restaurante Sabor Urbano" style="max-width: 100%; height: auto; border-radius: 8px;">
+            </div>
         </section>
     </main>
 
-    <!-- Pie de página sencillo -->
-    <footer>
-        <p>&copy; 2026 Restaurante Sabor Urbano - Alumna: Benbinda Nair Delgado</p>
+    <footer class="footer contenedor">
+        <div>
+            <b>Restaurante Sabor Urbano</b>
+            <p>Cocina, encuentro y buenos momentos.</p>
+        </div>
+        <p class="materia">© 2026 Restaurante Sabor Urbano - Alumna: Benbinda Nair Delgado</p>
     </footer>
 
     <script src="../js/script.js"></script>
