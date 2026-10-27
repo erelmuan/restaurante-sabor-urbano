@@ -210,3 +210,30 @@ main p {
     gap: 30px ;
 
 }
+/* Estilos de pagina menu.html */
+/* Fuerza a que cada plato se comporte como un contenedor flexible */
+.stats ul li {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al inicio superior */
+    gap: 16px;               /* Deja un espacio de separación entre la imagen y el texto */
+    margin-bottom: 20px;     /* Separa un plato del siguiente */
+}
+
+/* Controla el tamaño fijo de la miniatura */
+.thumb-plato {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;       /* Evita que la imagen se deforme al recortarse */
+    border-radius: 8px;      /* Bordes ligeramente redondeados */
+    flex-shrink: 0;          /* Evita que la imagen se aplaste si el texto es muy largo */
+}
+
+/* Distribuye el espacio interno del texto */
+.contenido-plato {
+    flex-grow: 1;            /* Toma el espacio restante a la derecha */
+}
+
+.contenido-plato h4 {
+    margin-top: 0;           /* Remueve márgenes sobrantes para alinear con la parte superior de la foto */
+    margin-bottom: 6px;
+}
